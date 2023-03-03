@@ -69,5 +69,9 @@ def fetch(path, token)
     http.request(request)
   end
 
-  JSON.parse(response.body, {:symbolize_names => true})
+  data = JSON.parse(response.body, {:symbolize_names => true})
+
+  pp data
+
+  data
 end
