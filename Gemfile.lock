@@ -19,6 +19,7 @@ GEM
     jwt (2.7.0)
     memoist (0.16.2)
     method_source (1.0.0)
+    mini_exiftool (2.10.2)
     multi_json (1.15.0)
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
@@ -49,6 +50,7 @@ PLATFORMS
 DEPENDENCIES
   exif
   googleauth
+  mini_exiftool
   pry
   sinatra
 
