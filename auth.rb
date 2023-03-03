@@ -61,6 +61,8 @@ def fetch(path, token)
   request['Accept'] = 'application/json'
   request['Authorization'] = "Bearer #{token}"
 
+  pp request['Authorization']
+
   req_options = {
     use_ssl: uri.scheme == 'https'
   }
